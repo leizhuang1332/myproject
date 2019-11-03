@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping("helloworld")
     public String helloWorld(){
-        return "hello 哈哈哈";
+        return "hello 哈哈哈 钩子调用 提交自动发布";
     }
 }
