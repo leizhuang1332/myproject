@@ -12,6 +12,8 @@ public class HelloController {
     public String helloWorld(){
         System.out.println("abbb");
         System.out.println("aaa");
+        System.out.println("ddd");
+
         System.out.println("cccc");
         return "hello 哈哈哈 3.0 完美自动部署bbbaaaccc";
     }
