@@ -6,5 +6,6 @@ public class MargeTest {
 		System.out.println("桌面");
 		System.out.println("桌面2");
         System.out.println("idea");
+		System.out.println("桌面3");
     }
 }
