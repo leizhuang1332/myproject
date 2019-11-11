@@ -10,6 +10,7 @@ public class HelloController {
 
     @GetMapping("helloworld")
     public String helloWorld(){
+        System.out.println("abbb");
         return "hello 哈哈哈 3.0 完美自动部署bbbaaa";
     }
 }
