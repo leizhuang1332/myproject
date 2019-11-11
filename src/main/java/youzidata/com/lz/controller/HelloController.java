@@ -12,7 +12,7 @@ public class HelloController {
     public String helloWorld(){
         System.out.println("abbb");
         System.out.println("aaa");
-
-        return "hello 哈哈哈 3.0 完美自动部署bbbaaa";
+        System.out.println("cccc");
+        return "hello 哈哈哈 3.0 完美自动部署bbbaaaccc";
     }
 }
