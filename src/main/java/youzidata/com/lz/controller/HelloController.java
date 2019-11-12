@@ -19,6 +19,8 @@ public class HelloController {
 
         System.out.println("cccc");
         System.out.println("fff");
+        
+        //System.out.println("1");
 
         return "hello 哈哈哈 3.0 完美自动部署bbbaaaccc";
     }
