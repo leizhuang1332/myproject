@@ -6,7 +6,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@MapperScan("youzidata.com.lz.sqldata.dao")
+@MapperScan("youzidata.com.lz.ecache.dao")
 public class MybatisConfig {
 
 }

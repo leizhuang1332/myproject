@@ -5,6 +5,21 @@ spring:
     name: myproject
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://10.0.252.236:3306/runway_test?serverTimezone=GMT%2B8&useUnicode=true&amp&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true&allowMultiQueries=true
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8&useUnicode=true&amp&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true&allowMultiQueries=true
     username: root
     password:
+
+
+
+mybatis:
+  type-aliases-package: youzidata.com.lz.ecache.entity
+  mapper-locations: classpath:mybatis/*.xml
+  configuration:
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: true
+    map-underscore-to-camel-case: true
+    jdbc-type-for-null: NULL
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
