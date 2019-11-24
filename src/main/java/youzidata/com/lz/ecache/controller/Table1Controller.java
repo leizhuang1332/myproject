@@ -18,4 +18,9 @@ public class Table1Controller {
     public String select(){
         return table1Service.selectAll().toString();
     }
+
+    @GetMapping("/selectById")
+    public String selectById(int id){
+        return table1Service.selectById(id).toString();
+    }
 }

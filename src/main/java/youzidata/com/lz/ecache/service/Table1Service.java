@@ -13,4 +13,8 @@ public class Table1Service {
     public Object selectAll(){
         return table1Dao.selectAll();
     }
+
+    public Object selectById(int id) {
+        return table1Dao.selectById(id);
+    }
 }

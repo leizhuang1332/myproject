@@ -8,4 +8,6 @@ import java.util.List;
 @Repository
 public interface Table1Dao {
     List<Table1Entity> selectAll();
+
+    Table1Entity selectById(int id);
 }

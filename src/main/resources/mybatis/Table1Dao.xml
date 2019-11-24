@@ -5,5 +5,9 @@
 	<select id="selectAll" resultType="youzidata.com.lz.ecache.entity.Table1Entity">
 		SELECT * FROM test.table1;
 	</select>
+
+	<select id="selectById" resultType="youzidata.com.lz.ecache.entity.Table1Entity">
+		SELECT * FROM test.table1 where id=#{id};
+	</select>
 	
 </mapper>
